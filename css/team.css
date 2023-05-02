@@ -1,0 +1,173 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+	box-sizing: inherit;
+}
+
+
+.header{
+	height: 100vh;
+	background-image: url(../img/main2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+}
+
+.header_content{
+	text-align: center;
+	width: 100%;
+	padding-top: 200px;
+
+}
+
+.header h1{
+	font-size: 68px;
+	line-height: 100px;
+	font-weight: 400;
+	color: #fff;
+	border: 1px solid #fff;
+	padding-top: 27px;
+	padding-bottom: 55px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-shadow: 20px 20px 30px black;
+}
+
+.link_menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.header ul{
+	list-style-type: none;
+	margin-top: 28px;
+}
+
+
+.header ul li{
+	display: inline-block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 9px;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+
+
+.container{
+	display: flex;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	position: relative;
+	width: 1170px;
+}
+
+.btn-area{
+	padding-top: 150px;
+}
+
+.scrolled{
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+.bottom_line{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 90px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.logo{
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 5px 10px;
+	/*border-radius: 10px;*/
+	font-size: 20px;
+}
+
+.button{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	line-height: 15px;
+	text-transform: uppercase;
+}
+
+.mainbtn{
+	border: 2px solid #fff;
+	padding: 10px 17px;
+	transition: all 0.5s;
+}	
+
+.mainbtn:hover{
+	background-color: rgba(143, 143, 143, 0.5);
+}
+
+.team_title{
+	text-align: center;
+	width: 1170px;
+	margin-top: 30px;
+}
+
+.team_items{
+	width: 1170px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+.team_title{
+	text-align: center;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.item{
+	width: 300px;
+	height: 420px;
+	text-align: center;
+	background-color: #ededed;
+}
+
+.team_info{
+	width: 300px;
+}
+
+.name{
+	margin-top: -1px;
+}
+.footer{
+	width: 100%;
+	min-height: 100px;
+	display: inline-block;
+	text-align: center;
+	background-color: #f7eded;
+	box-sizing: border-box;
+}
+.footer-links a{
+	margin-left: 20px;
+text-decoration: none;
+color:black;
+border-bottom: 1px solid black;
+}
+.footer-links a:hover{
+text-decoration: none;
+color: grey;
+}
+
